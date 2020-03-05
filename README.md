@@ -1,11 +1,26 @@
-# Sample Snack app
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by clicking the **Run** button or use the simulator by clicking **Tap to Play**. When you're done, click **Save** and share the link!
+              #AppMovilConReactNative
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Export** your project and use it with [expo-cli](https://docs.expo.io/versions/latest/introduction/installation.html).
+La aplicacion movil cuenta con cinco pantallas de trabajo. Estas son:
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the **Embed** button.
-
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io).
-
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack-web).
+              Login: En esta pantalla encontraremos componentes como ActivityIndicator, Navigation.
+                     es la pantalla index la cual te genera una cuenta esta cuenta con dos input los 
+                     cuales toman con un props los datos de nombre de usuario y contraseña y los manda a 
+                     llamar en la pantalla de Entro con un state con ayuda de un boton y un onPress.
+                     Tambien tiene un boton de navigation para poder entrara a la pantalla de registro.
+                     y un boton navigation para entrar a la pantalla Principal.
+                     
+              Entro: esta panatalla muestra los state de los input d ela pantalla de Login.
+                     Tambien cuenta con un ActivityIndicator entre las pantallas de Login y Entro 
+                     el cual tarda un proximo de 2 segundos.
+                     Y un componente de regreso a la pagina anterior
+                     
+              Registarse: Esta pantalla es muy comun en cuestion de aplicaciones, cuenta con lo mas 
+                          basico dos botenes marcados para que puedas registrar tu cuenta con alguna red social.
+                          Cuanta con cuatro input para hacer tu registro.
+                          Y un componente de regreso a la pagina anterior
+                          
+              Principal: Esta pantalla cuenta con los datos API traidos desde un https://.
+                         estos son llamdos en esta pantalla, son traidos desde una base de datos. 
+                     
+              
